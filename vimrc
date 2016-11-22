@@ -4,6 +4,9 @@
 " only required if not using plug
 " filetype plugin indent 
 
+" 8 space tab default is stupid
+set tabstop=4
+
 " Auto complete
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 
