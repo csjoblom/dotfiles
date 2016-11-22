@@ -11,7 +11,7 @@ autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 syntax enable
 
 " Plugins
-call plug#begin('/root/.vim/plugged')
+call plug#begin('~/.vim/plugged')
 
 " Syntax Support 
 Plug 'othree/yajs.vim', { 'for': 'javascript' }
