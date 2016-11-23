@@ -5,5 +5,4 @@
 
 rm -rf ~/.vimrc
 rm -rf ~/.bash_profile
-ln -fs ~/.dotfiles/bash_profile ~/.bash_profile
-source ~/.bash_profile
+ln -fs ~/dotfiles/bash_profile ~/.bash_profile

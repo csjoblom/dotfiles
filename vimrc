@@ -7,6 +7,13 @@
 " 8 space tab default is stupid
 set tabstop=4
 
+" For CtrlSpace
+set nocompatible
+set hidden
+
+" Theme
+let g:airline_theme='luna'
+
 " Auto complete
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 
@@ -33,5 +40,12 @@ Plug 'othree/javascript-libraries-syntax.vim'
 
 " Linter
 Plug 'scrooloose/syntastic'
+
+" Theme
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" CtrlSpace
+Plugin 'vim-ctrlspace/vim-ctrlspace'
 
 call plug#end()
